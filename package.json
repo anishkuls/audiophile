@@ -1,0 +1,17 @@
+{
+  "name": "audiophile",
+  "version": "1.0.0",
+  "description": "Audio Equipments - Ecommerce Site --- ### NPM start music ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm start --prefix frontend\" \"node server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2"
+  }
+}

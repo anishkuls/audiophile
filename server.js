@@ -4,7 +4,7 @@ const app = express();
 // Define a route for the root URL 
 
 app.get('/', (req, res)=>{
-	res.end("Hello World");
+	res.send("Hello World");
 });
 
 // choose a port to listen on
